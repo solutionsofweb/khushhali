@@ -1,0 +1,139 @@
+
+$theme-colors: (
+    "primary": #58ab41,
+    "secondary": #014380,
+    "danger": #ff4136
+  );
+
+  $base-color: #58ab41;
+  $secondry-color: #014380;
+  $nav-links-size: 13px;
+  $nav-links-color: black;
+// @import "../node_modules/bootstrap/scss/bootstrap";
+body{
+    p{
+        margin-bottom: 0!important;
+    }
+}
+
+@keyframes coloranimate {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: rgb(205, 248, 194);
+    }
+
+    100% {
+        color: white;
+    }
+}
+.social-top{
+   svg,i{
+       color: white;
+       margin: 0 5px;
+       font-size: 18px;
+       &:hover{
+        animation-name: coloranimate;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+ 
+
+       }
+
+   }
+}
+
+svg{
+    color: white;
+}
+
+.site-footer{
+    background: white;
+    padding-bottom: 0;
+    h2{
+        color: $secondry-color!important;
+        position: relative;
+
+    }
+    p{
+        color: black;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+    img{
+        height: 50px!important;
+        width: 50px!important;
+        border-radius: 5px;
+    }
+    nav{
+        h2{
+            &::before{
+                content: "";
+    height: 2px;
+    width: 38px;
+    background: $base-color;
+    position: absolute;
+    top: -11px;
+    left: 0;
+            }
+        }
+        ul{
+            display: block;
+            li{
+                a{
+                    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 13px;
+    position: relative;
+    margin-top: 5px;
+                    &:hover{
+
+                    &::before{
+                        content: "";
+                        left: -5px;
+                        top: 5px;
+                        height: 10px;
+                        width: 2px;
+                        position: absolute;
+                        // display: none;
+background: $base-color;
+}
+
+                    }
+                }
+            }
+        }
+    }
+    .block{
+        margin-top: 0px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .field__items{
+        display: flex;
+        .field__item{
+            margin-right: 5px;
+        }
+    }
+}
+#header{
+    #navbar-main {
+        padding: 0!important;
+        .menu--main{
+            ul{
+                li{
+                    a,span{
+                        font-size: $nav-links-size;
+                        color: $nav-links-color;
+                        &::after{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

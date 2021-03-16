@@ -1,0 +1,28 @@
+# Urdu translation of Admin Toolbar (3.0.0)
+# Copyright (c) 2021 by the Urdu translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Admin Toolbar (3.0.0)\n"
+"POT-Creation-Date: 2021-01-22 10:47+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Urdu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Delete"
+msgstr "حذف کریں"
+msgid "Development"
+msgstr "ڈویلپمنٹ"
+msgid "Administration"
+msgstr "تنظیم"
+msgid "Settings"
+msgstr "ترتیبات"
+msgid "Import"
+msgstr "درآمد کریں"
+msgid "Export"
+msgstr "برآمد کریں"
+msgid "Add language"
+msgstr "زبان کا اضافہ کریں"

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAEH,AAAA,KAAK,CAAA,AAAA,IAAC,CAAK,QAAQ,AAAb,EAAe;EACjB,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,MAAM,CAAC,kBAAkB,CAAC;EACtB,OAAO,EAAE,QAAQ;EACjB,SAAS,EAAE,QAAQ;CACtB;;AAED,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "search-form.scss"
+    ],
+    "names": [],
+    "file": "search-form.css"
+}

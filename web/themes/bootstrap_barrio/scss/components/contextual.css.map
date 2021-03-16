@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAEH,AAAA,iBAAiB,CAAC,CAAC,CAAC;EAClB,aAAa,EAAE,IAAI;EACnB,WAAW,EAAE,KAAK;CACnB",
+    "sources": [
+        "contextual.scss"
+    ],
+    "names": [],
+    "file": "contextual.css"
+}

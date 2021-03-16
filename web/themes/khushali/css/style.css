@@ -1,0 +1,131 @@
+body p {
+  margin-bottom: 0 !important;
+}
+
+@-webkit-keyframes coloranimate {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #cdf8c2;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes coloranimate {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #cdf8c2;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.social-top svg, .social-top i {
+  color: white;
+  margin: 0 5px;
+  font-size: 18px;
+}
+
+.social-top svg:hover, .social-top i:hover {
+  -webkit-animation-name: coloranimate;
+          animation-name: coloranimate;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+svg {
+  color: white;
+}
+
+.site-footer {
+  background: white;
+  padding-bottom: 0;
+}
+
+.site-footer h2 {
+  color: #014380 !important;
+  position: relative;
+}
+
+.site-footer p {
+  color: black;
+  margin-top: 0px;
+  font-size: 13px;
+}
+
+.site-footer img {
+  height: 50px !important;
+  width: 50px !important;
+  border-radius: 5px;
+}
+
+.site-footer nav h2::before {
+  content: "";
+  height: 2px;
+  width: 38px;
+  background: #58ab41;
+  position: absolute;
+  top: -11px;
+  left: 0;
+}
+
+.site-footer nav ul {
+  display: block;
+}
+
+.site-footer nav ul li a {
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-size: 13px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.site-footer nav ul li a:hover::before {
+  content: "";
+  left: -5px;
+  top: 5px;
+  height: 10px;
+  width: 2px;
+  position: absolute;
+  background: #58ab41;
+}
+
+.site-footer .block {
+  margin-top: 0px;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.site-footer .field__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-footer .field__items .field__item {
+  margin-right: 5px;
+}
+
+#header #navbar-main {
+  padding: 0 !important;
+}
+
+#header #navbar-main .menu--main ul li a, #header #navbar-main .menu--main ul li span {
+  font-size: 13px;
+  color: black;
+}
+
+#header #navbar-main .menu--main ul li a::after, #header #navbar-main .menu--main ul li span::after {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

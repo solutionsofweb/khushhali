@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAEH,yBAAyB;AACzB,AAAA,oBAAoB,CAAC;EACnB,MAAM,EAAE,WAAW;EAAE,SAAS;EAC9B,OAAO,EAAE,CAAC;CACX;;CACD,AAAA,AAAA,GAAC,CAAI,KAAK,AAAT,EAAW,oBAAoB,CAAC;EAC/B,WAAW,EAAE,CAAC;EACd,YAAY,EAAE,IAAI;EAClB,6EAA6E;EAC7E,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "vertical-tabs.component.scss"
+    ],
+    "names": [],
+    "file": "vertical-tabs.component.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;GAGG;AAEH,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,cAAc,EAAE,GAAG;EACnB,MAAM,EAAE,WAAW;CACpB;;AACD,AAAA,eAAe,CAAC;EACd,gBAAgB,EAAE,6CAA6C;CAChE;;AACD,AAAA,gBAAgB,CAAC;EACf,gBAAgB,EAAE,2CAA2C;CAC9D",
+    "sources": [
+        "tablesort-indicator.scss"
+    ],
+    "names": [],
+    "file": "tablesort-indicator.css"
+}

@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for a resizable textarea.
+ */
+.form-textarea-wrapper textarea {
+  display: block;
+  margin: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=textarea.css.map */
